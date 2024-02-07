@@ -1,3 +1,5 @@
+#determine if a is a quadratic residue of p
+#if x^2 = a (mod p)
 def legendre_symbol(a, p):
     """
     Legendre symbol

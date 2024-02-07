@@ -3,10 +3,3 @@ MITM attack
 Wieners attack
 BoolCrypt (And operation leaks info)
 Foil The Plot
-
-from this:
-Working with operations on booleans
-AES?
-Wieners attack
-MITM Attack
-Hash Collisions
