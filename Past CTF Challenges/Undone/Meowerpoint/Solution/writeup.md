@@ -13,3 +13,5 @@ Next, open the 2 glb files (3D Model File) in blender or glb file extractor to g
 ![nice try](https://github.com/appeventuremoment/ctf_tools/blob/main/Past%20CTF%20Challenges/Undone/Meowerpoint/Solution/image2.png)
 
 After this, looking through all of them we should find the flag written in texture.png blahaj{blahaj_hate_crime_;(}
+
+Not bad, forensics/10
