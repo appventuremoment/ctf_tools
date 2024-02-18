@@ -1,6 +1,21 @@
 import time
 import random
 
+welcome = '''Welcome to my custom gacha system! Here are the rules.
+You are given 5000 turns. In each turn, I will think of a random number, and you will attempt to guess it. Depending on how close you are, you will stand a chance to win one of give attractive prizes!
+
+If our numbers are the same for 50 consecutive turns, you win a 1-star chainhaj.
+If our numbers are the same for 100 consecutive turns, you win a 2-star smolhaj.
+If our numbers are the same for 200 consecutive turns, you win a 3-star blahaj.
+If our numbers are the same for 300 consecutive turns, you win a 4-star bighaj.
+And finally, if our numbers are the same for 500 consecutive turns, you win the grand prize, the 5-star SSR flag!
+Note that you cannot win the same prize twice.
+
+Have fun!
+
+(You may type exit to exit the program)
+'''
+
 FLAG = "blahaj{???}"
 
 print("Initializing...")
