@@ -7,13 +7,13 @@ We can use https://www.programiz.com/php/online-compiler/ to run it online.
 
 Now for the first part we see 
 
-```php strcmp($inputsecret, $secret) != 0```
+```strcmp($inputsecret, $secret) != 0```
 
 where the inputsecret parameter is compared to the secret using strcmp. From this writeup https://ctftime.org/writeup/19385, we know that strcmp has some flaws and hence we can input an array such that strcmp returns NULL, and since it is a loose comparison it will equate to 0.
 
 For the second part, we see 
 
-```php hash('sha1',$meaningoflife) != 42```
+```hash('sha1',$meaningoflife) != 42```
 
 where they want the sha1 hash of the meaningoflife parameter to equal 42. That is normally impossible since sha1 hashes are usually a hex string with around 32 characters. However, from https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Type%20Juggling/README.md we see that '123a' == 123 will equate to true due to the property of loose comparisons in php.
 
