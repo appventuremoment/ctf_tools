@@ -1,4 +1,4 @@
-Forensics(??) Challenge
+Forensics Challenge
 
 First, in your file explorer on windows, click View > Show > File name extensions
 Then, change the pptx to a zip file since powerpoint presentations are basically fancy zip files. 
