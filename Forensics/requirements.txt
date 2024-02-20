@@ -1,1 +1,5 @@
 https://www.autopsy.com
+https://www.aperisolve.com
+https://gchq.github.io/CyberChef/ magic
+https://github.com/James231/Wordsearch-Solver-Python/tree/master
+https://github.com/tna0y/Python-random-module-cracker

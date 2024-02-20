@@ -1,0 +1,1 @@
+Based on memory it is an array of letters that you are supposed to find words in. Like the grid wordsearch.
