@@ -1,0 +1,1 @@
+It's getting harder and harder to make compelling challenges, so this is just XOR cipher. I've even provided you the key! Don't get expelled for bad input and the final prize will be within your reach!
