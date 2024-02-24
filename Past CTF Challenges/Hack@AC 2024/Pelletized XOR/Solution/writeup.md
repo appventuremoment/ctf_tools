@@ -2,11 +2,11 @@ Crypto Challenge
 
 Woah! This one is an actual challenge and not a silly one. Inspecting the file we see that firstly we are given a key in the form of 50 numbers. The server then wants a response of 50 numbers separated by spaces, where the common logarithm of each number is equals to the corresponding number in the given key. 
 ```
-    for number in userinput:
-        s.append(math.floor(math.log(number, 10))) # What am I doing?
-        
-    if (s == key):
-    #code here giving response
+for number in userinput:
+    s.append(math.floor(math.log(number, 10))) # What am I doing?
+    
+if (s == key):
+#code here giving response
 ```
 
 
