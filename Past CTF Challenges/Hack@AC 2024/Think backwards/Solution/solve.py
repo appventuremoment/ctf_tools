@@ -1,4 +1,4 @@
-inp = '4134623a8a5343547a684f6373646e648366725c6e227c'
+inp = '4134623a8a5343547a684f6373646e648366725c6e227c5077245b618c'
 splitinp = [inp[i:i+2] for i in range(0, len(inp), 2)]
 
 print(splitinp)

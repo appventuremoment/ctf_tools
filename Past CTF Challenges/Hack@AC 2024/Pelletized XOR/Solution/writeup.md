@@ -1,6 +1,8 @@
 Crypto Challenge
 
-Woah! This one is an actual challenge and not a silly one. Inspecting the file we see that firstly we are given a key in the form of 50 numbers. The server then wants a response of 50 numbers separated by spaces, where the common logarithm of each number is equals to the corresponding number in the given key. 
+Woah! An actual challenge and not a silly warmup. 
+
+Inspecting the file we see that firstly we are given a key in the form of 50 numbers. The server then wants a response of 50 numbers separated by spaces, where the common logarithm of each number is equals to the corresponding number in the given key. 
 ```
 for number in userinput:
     s.append(math.floor(math.log(number, 10))) # What am I doing?
@@ -92,7 +94,7 @@ Finally we can rerun the code with the new list to get
 # [65, 67, 83, 73, 123, 99, 48, 78, 103, 114, 65, 116, 53, 95, 117, 95, 77, 97, 53, 84, 51, 82, 101, 68, 95, 84, 72, 101, 95, 112, 51, 108, 49, 95, 101, 113, 85, 97, 116, 49, 48, 78, 33, 95, 102, 106, 50, 51, 100, 125]
 ```
 which we then convert from integer to char using ord() to get the flag ACSI{c0NgrAt5_u_Ma5T3ReD_THe_p3l1_eqUat10N!_fj23d}
-Looking at thge flag, it the intended solve was to use Pell's equation to find the corresponding numbers, but due to the several issues of the math library, we were able to come up with our own solution.
+Looking at the flag, the intended solution was to use Pell's equation to find the corresponding numbers, but due to the several issues of the math library, we were able to come up with our own solution.
 
 
 All files, both challenges and solutions are in their respective folders.
