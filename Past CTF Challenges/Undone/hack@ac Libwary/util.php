@@ -8,7 +8,7 @@ class Book {
     public $content;
 
     function __construct($option) {
-        $th is->option = intval($option);
+        $this->option = intval($option);
         $this->name = $GLOBALS['titles'][$this->option - 1];
         //if option was the flag, don't allow the user to read it
         if ($this->option == 5){
