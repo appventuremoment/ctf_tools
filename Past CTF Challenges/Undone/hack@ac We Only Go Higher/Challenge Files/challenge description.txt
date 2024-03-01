@@ -1,0 +1,1 @@
+We always strive for new heights in Cryptography, which is why I just invented a new hash function! There are multiple random variables, and the numbers get very large. Must mean its very secure!
