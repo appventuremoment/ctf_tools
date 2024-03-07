@@ -2,6 +2,8 @@ Crypto Challenge
 
 This challenge was considered the hardest of all in this category. Based on the code below:
 
+![nice try](https://github.com/appventuremoment/ctf_tools/blob/main/Past%20CTF%20Challenges/Hack%40AC%202024/We%20Only%20Go%20Higher/Solution/image.png)
+
 We can tell that each number of the plaintext converted from bytes to long has been multiplied with multi and either 1 or 2 before being added to the output. Multiplier is increased with every iteration of the numbers in the plaintext, by a 19-22 fold based on the list.
 
 It gives you 300 tries to input your plaintext, such that it matches the encrypted plaintext they output, after it has been encrypted in the same way. From this, we have 2 available options to solve this challenge. 
