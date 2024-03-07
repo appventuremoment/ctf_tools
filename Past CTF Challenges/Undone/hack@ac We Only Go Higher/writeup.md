@@ -1,3 +1,0 @@
-Crypto Challenge
-
-binary search

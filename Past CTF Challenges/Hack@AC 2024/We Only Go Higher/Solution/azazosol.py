@@ -30,6 +30,7 @@ for i in range(80):
             numbers2.append(gr//2)
 
 print(len(numbers1), len(numbers2))
+print(numbers1, numbers2)
 
 from z3 import *
 from itertools import accumulate
@@ -37,6 +38,7 @@ from itertools import accumulate
 cumnumbers2 = accumulate(numbers2, lambda x, y: x*y)
 
 grr = [Int(f"x{i}") for i in range(80)]
+
 s = Solver()
 for i in grr:
     s.add(0 <= i)
@@ -45,6 +47,7 @@ s.add(
     sum(a*b*i for a, b, i in zip(numbers1, cumnumbers2, grr)) == secret
 )
 print(s.check())
+print(s.model())
 print("".join(map(str, [s.model()[i].as_long() for i in grr]))[::-1])
 
 p.interactive()
