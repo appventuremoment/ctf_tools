@@ -9,12 +9,14 @@ printlnX(int x) {
 }
 ```
 
+Assumption: printNumStr(int x, str y) takes in a number and a string, concatenates them and prints them, so printStr(str x) will print the string given and printNum(int x) will print the number given
+
 ### a. 
 ```
 printlnX(int x) {
     for(int i = 0; i < (x - 1); i++)
-        printNumStr (i, ", ");
-    printNumStr(x - 1); 
+        printNumStr(i, ", ");
+    printNum(x - 1); 
 }
 ```
 
@@ -25,7 +27,7 @@ Assuming we are able to call *printlnX(int x)* from part a
 printMatrixX(int x) {
     for(int i = 0; i < (x - 1); i++)
         printlnX(x);
-        printNumStr ("\n");
+        printStr("\n");
     printlnX(x);
 }
 ```
@@ -34,13 +36,13 @@ If not
 ```
 printMatrixX(int x) {
     for(int i = 0; i < (x - 1); i++)
-        for(int j = 0; i < (x - 1); j++)
-            printNumStr (j, ", ");
+        for(int j = 0; j < (x - 1); j++)
+            printNumStr(j, ", ");
         printNumStr(x - 1, "\n"); 
     
-    for(int j = 0; i < (x - 1); j++)
-        printNumStr (j, ", ");
-    printNumStr(x - 1); 
+    for(int j = 0; j < (x - 1); j++)
+        printNumStr(j, ", ");
+    printNum(x - 1); 
 }
 ```
 
@@ -49,11 +51,64 @@ Assuming we are able to call *printlnX(int x)* from part a
 ```
 printPyramid(int x) {
     for(int i = 0; i < (x - 1); i++)
-        printlnX(i);
-        printNumStr ("\n");
+        printlnX(i + 1);
+        printStr("\n");
 
-    for(int i = x - 1; i < (x - 1); i++)
-        printlnX(i);
-        printNumStr ("\n");
+    for(int i = x - 1; i < 0; i--)
+        printlnX(i + 1);
+        printStr("\n");
+    printlnX(1);
 }
 ```
+
+If not
+```
+printPyramid(int x) {
+    for(int i = 0; i < (x - 1); i++)
+        for(int j = 0; j < (i - 1); j++)
+            printNumStr(j, ", ");
+        printNumStr(i - 1, "\n"); 
+
+    for(int i = x - 1; i < 0; i--)
+        for(int j = 0; j < (i - 1); j++)
+            printNumStr(j, ", ");
+        printNumStr(i - 1, "\n");
+    printNum(0);
+}
+```
+
+### d.
+Assuming we are able to call *printPyramid(int x)* from part c
+```
+printRidge(list x) {
+    for(int i = 0; i < length(x); i++)
+        for(int i = 0; i < (item(x, i) - 1); i++)
+            for(int j = 0; j < (i - 1); j++)
+                printNumStr(j, ", ");
+            printNumStr(i - 1, "\n"); 
+
+        for(int i = item(x, i) - 1; i < 0; i--)
+            for(int j = 0; j < (i - 1); j++)
+                printNumStr(j, ", ");
+            printNumStr(i - 1, "\n");
+        printNum(0);
+}
+```
+
+## Question 2
+
+Assume that your computer only has two built in unary operators, ++ and --.
+
+```
+add 0 y = y
+add x 0 = x
+add x y
+    | (x < y) = add y x
+    | otherwise = add (x--) (y++)
+```
+
+### a.
+Explain why it does not terminate and Try (5, 3)
+
+### b.
+Perhaps to check whether it is an integer

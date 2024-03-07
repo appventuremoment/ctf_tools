@@ -16,3 +16,9 @@ def printPyramid(x):
         printstr += "\n"
     printstr += printlnX(1)
     print(printstr)
+
+
+lst = [3, 2]
+
+for i in range(0, len(lst)):
+    printPyramid(lst[i])
