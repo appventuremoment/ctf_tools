@@ -11,7 +11,7 @@ printlnX(int x) {
 
 Assumption: printNumStr(int x, str y) takes in a number and a string, concatenates them and prints them, so printStr(str x) will print the string given and printNum(int x) will print the number given
 
-### a. 
+### (a) 
 ```
 printlnX(int x) {
     for(int i = 0; i < (x - 1); i++)
@@ -20,9 +20,9 @@ printlnX(int x) {
 }
 ```
 
-### b. 
+### (b) 
 
-Assuming we are able to call *printlnX(int x)* from part a
+Assuming we are able to call *printlnX(int x)* from part (a)
 ```
 printMatrixX(int x) {
     for(int i = 0; i < (x - 1); i++)
@@ -46,8 +46,8 @@ printMatrixX(int x) {
 }
 ```
 
-### c.
-Assuming we are able to call *printlnX(int x)* from part a
+### (c)
+Assuming we are able to call *printlnX(int x)* from part (a)
 ```
 printPyramid(int x) {
     for(int i = 0; i < (x - 1); i++)
@@ -77,8 +77,8 @@ printPyramid(int x) {
 }
 ```
 
-### d.
-Assuming we are able to call *printPyramid(int x)* from part c
+### (d)
+Assuming we are able to call *printPyramid(int x)* from part (c)
 ```
 printRidge(list x) {
     for(int i = 0; i < length(x); i++)
@@ -107,8 +107,39 @@ add x y
     | otherwise = add (x--) (y++)
 ```
 
-### a.
+### (a)
 Explain why it does not terminate and Try (5, 3)
 
-### b.
+### (b)(i)
 Perhaps to check whether it is an integer
+Modulus Function?
+
+### (b)(ii)
+define function and describe why better
+
+### (b)(iii)
+show example on 17 13
+
+### (c)
+modify code to take in negative numbers
+
+
+## Question 3
+
+### (a)(i)
+memory location
+
+### (a)(ii)
+memory location
+
+### (a)(iii)
+set value of memory location between 100 and 200
+
+### (b)(i)
+modify to make it 4 * V1 + 10
+
+### (b)(ii)
+modify it to make it V1 * V2
+
+### (b)(iii)
+show example with large V1 and small V2
