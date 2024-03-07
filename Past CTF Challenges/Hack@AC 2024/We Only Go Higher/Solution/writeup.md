@@ -13,5 +13,4 @@ The other way, which was done by @azazo is to realise that you can encrypt 10**i
 After getting the whole list, we input an equation from x_i for x_0 to x_79, standing for each index of the plaintext into z3 multiplied by each corresponding rand_seq_1[i] and rand_seq_2[i] equating to the encrypted plaintext the server gave. From there, we find each x which corresponds to each digit of the plaintext in number form, reversed. Reversing it gives us the correct number.
 
 
-Converting both of the numbers using long_to_bytes gives us the flag
-ACSI{bSTa_15_f4St_eN0Ugh_yAY}
+Converting both of the numbers using long_to_bytes gives us the flag ACSI{bSTa_15_f4St_eN0Ugh_yAY}
