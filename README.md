@@ -1,3 +1,25 @@
+# CTF Tools
 Just a list of CTF Tools for my own use
 
 ![nice try](https://github.com/appeventuremoment/ctf_tools/blob/main/this%20cannnot%20continue.jpg)
+
+
+Stuff to readup:
+- https://github.com/Lag-and-Crash/2024/tree/main/challenges
+- https://bitsdeep.com/posts/analysis-of-the-roca-vulnerability/
+- https://mathcrypto.wordpress.com/2014/11/11/probable-primes-and-pseudoprimes/
+
+
+```py
+t = int(time.time()*1000)
+
+for i in range(5):
+    p.recvuntil(b"card is ")
+    card = eval(p.recvline().decode("utf-8").strip())
+    head.append(card)
+
+for i in range(-1000, 1000):
+    if shuffle(t+i)[:5] == head:
+        p.sendline(str(shuffle(t+i)).encode("utf-8"))
+        break
+```

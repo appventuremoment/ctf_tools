@@ -5,6 +5,6 @@
 - https://www.guballa.de/ really good for vigenere as well
 
 # Crypto Websites
-- https://github.com/jvdsn/crypto-attacks
-- https://www.alpertron.com.ar/ECM.HTM
-- http://factordb.com
+- Attacks on all the common cryptosystems https://github.com/jvdsn/crypto-attacks
+- Integer factorisation https://www.alpertron.com.ar/ECM.HTM
+- Integer factorisation http://factordb.com
