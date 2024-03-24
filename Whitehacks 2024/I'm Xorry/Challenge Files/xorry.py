@@ -1,6 +1,6 @@
 import os
 
-flag="RedactedRRRRRRRRRRRRR"
+flag="Redacted"
 key=os.urandom(8)
 
 def encrypt(flag,key):
