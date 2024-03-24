@@ -38,6 +38,6 @@ This would give us U_Xahq_Omqemd_Emxmp, which we can see matches the casing for 
 
 ![nice try](image3.png)
 
-we find the phrase I_Love_Caesar_Salad from the phrases, which we then wrap in the flag format to get obtain WH2024P{I_Love_Caesar_Salad}. Sadly this was already solved when I started so I attempted this after the CTF ended. Only our team solved this surprisingly. 
+we find the phrase I_Love_Caesar_Salad from the phrases, which we then wrap in the flag format to get obtain WH2024{I_Love_Caesar_Salad}. Sadly this was already solved when I started so I attempted this after the CTF ended. Only our team solved this surprisingly. 
 
 0/10 bridge is a terrible game and the only bridges that will be burning are the ones you have with your friends.
