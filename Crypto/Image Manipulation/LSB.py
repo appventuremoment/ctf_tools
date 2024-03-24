@@ -1,4 +1,4 @@
-  import sys
+import sys
 
 import cv2
 import math
