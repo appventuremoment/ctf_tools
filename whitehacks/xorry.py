@@ -11,5 +11,3 @@ def encrypt(flag,key):
     return encrypted
 result="".join(encrypt(flag,key))
 print(f'Output: {result}') #Cough cough Output: 5b743e0c660d5d193d5d655220610d084c5d7848355a4d14
-    
-    
