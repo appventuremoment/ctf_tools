@@ -157,5 +157,3 @@ Related write-ups:
 *   [MMA-CTF 2015](https://github.com/ctfs/write-ups-2015/tree/master/mma-ctf-2015/stego/miyako-350)
 
 * * *
-
-_Please contribute more steps [here]({{ contributeSteps }})._

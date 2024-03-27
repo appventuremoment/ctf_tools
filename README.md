@@ -3,6 +3,13 @@ Just a list of CTF Tools for my own use
 
 ![nice try](https://github.com/appeventuremoment/ctf_tools/blob/main/this%20cannnot%20continue.jpg)
 
+For python 2 if you input variable name as it check if it is a variable it will allow it
+
+```
+r^n mod n^2 mod n
+r < n
+(r mod n)^n mod n
+```
 
 Stuff to readup:
 - https://github.com/Lag-and-Crash/2024/tree/main/challenges
