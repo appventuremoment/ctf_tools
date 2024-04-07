@@ -15,7 +15,7 @@ Stuff to readup:
 - https://github.com/Lag-and-Crash/2024/tree/main/challenges
 - https://bitsdeep.com/posts/analysis-of-the-roca-vulnerability/
 - https://mathcrypto.wordpress.com/2014/11/11/probable-primes-and-pseudoprimes/
-
+- https://nusgreyhats.org/posts/writeups/ductf-2023-encrypted-mail/
 
 ```py
 t = int(time.time()*1000)
