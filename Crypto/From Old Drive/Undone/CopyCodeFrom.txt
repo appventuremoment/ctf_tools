@@ -1,5 +1,0 @@
-Ridiculously Simpler Algorithm (ASCII to Char)
-MITM attack
-Wieners attack
-BoolCrypt (And operation leaks info)
-Foil The Plot

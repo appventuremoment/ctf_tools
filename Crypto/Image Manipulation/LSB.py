@@ -49,7 +49,7 @@ if __name__ == '__main__':
         img_path = sys.argv[1]
     else:
       #CHANGE THIS CHANGE THIS CHANGE THIS
-        img_path = ".wenkai.png"
+        img_path = "C:\Program Files\GitHub\ctf_tools\Crypto\Image Manipulation\pico.flag.png"
 
     msg = extract(img_path)
     print(msg)
