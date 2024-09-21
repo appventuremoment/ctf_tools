@@ -1,0 +1,24 @@
+from pwn import *
+import base64
+import string
+
+listofct = []
+for _ in range(5000):
+    r = connect('socket.cryptohack.org', 13370)
+    r.sendline(b"{\"msg\": \"request\"}")
+    r.recvline()
+    test = r.recvline().decode()
+    if "error" not in test:
+        test = test[:-3].split(" ")[-1][1:]
+        listofct.append(base64.b64decode(test))
+    r.close()
+
+with open("listofct.txt", 'w') as file:
+    for x in listofct:
+        file.write(str(x) + "\n")
+file.close()
+
+for i in range(20):
+    possiblechars = list((string.ascii_letters + "_" + "1234567890").encode())
+    chars = [x[i] for x in listofct]
+    print([chr(x) for x in possiblechars if x not in chars])
